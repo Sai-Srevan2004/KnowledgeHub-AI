@@ -1,50 +1,41 @@
 
 from knowledgehub_ai.ingestion.pipeline import ingest_documents
 from knowledgehub_ai.indexing.vector_store import build_vector_store
-from knowledgehub_ai.retrieval.retriever import (
-    retrieve_documents,
-    retrieve_documents_with_scores,
-)
+from knowledgehub_ai.retrieval.retriever import retrieve_documents
+from knowledgehub_ai.generation.answer import generate_answer
 
 
 def main():
-    # Step 1: Prepare document chunks.
+    # 1. Ingest documents.
     chunks = ingest_documents("data/documents")
 
-    # Step 2: Build the vector index.
+    # 2. Build vector index.
     print("\nBuilding vector index...")
     vector_store = build_vector_store(chunks)
 
-    # Step 3: Ask a question.
-    query = "How many weeks of parental leave can employees take?"
+    # 3. Accept a user question.
+    question = input("\nAsk KnowledgeHub AI: ")
 
-    # Step 4: Retrieve relevant documents.
-    print("\n--- RETRIEVED DOCUMENTS ---")
+    # 4. Retrieve relevant chunks.
+    print("\nRetrieving relevant documents...")
 
-    results = retrieve_documents(
+    retrieved_documents = retrieve_documents(
         vector_store=vector_store,
-        query=query,
+        query=question,
         top_k=3,
     )
 
-    for index, document in enumerate(results, start=1):
-        print(f"\nResult {index}")
-        print("Content:", document.page_content)
-        print("Metadata:", document.metadata)
+    # 5. Generate answer using retrieved context.
+    print("\nGenerating answer...")
 
-    # Step 5: Inspect similarity scores.
-    print("\n--- RETRIEVAL SCORES ---")
-
-    scored_results = retrieve_documents_with_scores(
-        vector_store=vector_store,
-        query=query,
-        top_k=3,
+    answer = generate_answer(
+        question=question,
+        documents=retrieved_documents,
     )
 
-    for document, score in scored_results:
-        print(f"\nScore: {score:.4f}")
-        print("Source:", document.metadata.get("source"))
-        print("Content:", document.page_content)
+    print("\n========== KNOWLEDGEHUB AI ==========")
+    print("\nAnswer:")
+    print(answer)
 
 
 if __name__ == "__main__":
