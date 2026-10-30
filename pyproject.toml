@@ -17,12 +17,13 @@ dependencies = [
 ]
 
 [project.scripts]
-knowledgehub-ai = "knowledgehub:main"
+knowledgehub-ai = "knowledgehub_ai:main"
 
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
 build-backend = "uv_build"
 
-[tool.uv.build-backend]
-module-name = "knowledgehub"
-module-root = "src"
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
