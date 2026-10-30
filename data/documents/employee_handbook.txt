@@ -1,0 +1,13 @@
+# Employee Handbook
+
+## Parental Leave
+Eligible employees receive 16 weeks of parental leave. Employees should submit parental leave requests through the HR portal at least 30 days before the expected leave date when possible.
+
+## Annual Leave
+Full-time employees receive 20 days of annual leave per calendar year. Leave requests must be approved by the employee's manager.
+
+## Remote Work
+Employees may request remote work arrangements with manager approval. Some roles may require employees to work from the office.
+
+## IT Support
+Employees experiencing account access issues should contact the IT help desk. Employees must never share their passwords with anyone.
