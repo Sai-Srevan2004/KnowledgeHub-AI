@@ -25,18 +25,26 @@ def main():
         top_k=3,
     )
 
-    # 5. Generate answer using retrieved context.
+        # 5. Generate answer using retrieved context.
     print("\nGenerating answer...")
 
-    answer = generate_answer(
+    response = generate_answer(
         question=question,
         documents=retrieved_documents,
     )
 
     print("\n========== KNOWLEDGEHUB AI ==========")
-    print("\nAnswer:")
-    print(answer)
 
+    print("\nAnswer:")
+    print(response["answer"])
+
+    print("\nSources:")
+
+    for source in response["sources"]:
+        print(f"\nReference: {source['reference']}")
+        print(f"Document: {source['source']}")
+        print(f"Chunk: {source['chunk_index']}")
+        print(f"Content: {source['content']}")
 
 if __name__ == "__main__":
     main()

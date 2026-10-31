@@ -1,4 +1,3 @@
-
 from langchain_core.documents import Document
 from langchain_core.output_parsers import StrOutputParser
 
@@ -7,34 +6,34 @@ from knowledgehub_ai.generation.prompt import RAG_PROMPT
 
 
 def format_context(documents: list[Document]) -> str:
-    """
-    Convert retrieved documents into context text.
-    """
-
-    if not documents:
-        return ""
-
     context_parts = []
 
     for index, document in enumerate(documents, start=1):
-        source = document.metadata.get("source", "Unknown source")
-
         context_parts.append(
-            f"Document {index}\n"
-            f"Source: {source}\n"
-            f"Content: {document.page_content}"
+            f"[Source {index}]\n{document.page_content}"
         )
 
     return "\n\n".join(context_parts)
 
 
+def format_sources(documents: list[Document]) -> list[dict]:
+    sources = []
+
+    for index, document in enumerate(documents, start=1):
+        sources.append({
+            "reference": f"Source {index}",
+            "source": document.metadata.get("source", "Unknown source"),
+            "chunk_index": document.metadata.get("chunk_index"),
+            "content": document.page_content,
+        })
+
+    return sources
+
+
 def generate_answer(
     question: str,
     documents: list[Document],
-) -> str:
-    """
-    Generate an answer using the question and retrieved context.
-    """
+) -> dict:
 
     if not question.strip():
         raise ValueError("Question cannot be empty.")
@@ -42,7 +41,12 @@ def generate_answer(
     context = format_context(documents)
 
     if not context:
-        return "I couldn't find relevant information in the provided documents."
+        return {
+            "answer": "I couldn't find relevant information in the provided documents.",
+            "sources": [],
+        }
+
+    sources = format_sources(documents)
 
     llm = get_chat_model()
 
@@ -55,4 +59,7 @@ def generate_answer(
         }
     )
 
-    return answer
+    return {
+        "answer": answer,
+        "sources": sources,
+    }
