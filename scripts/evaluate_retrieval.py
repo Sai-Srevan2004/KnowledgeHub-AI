@@ -7,7 +7,7 @@ from knowledgehub_ai.ingestion.pipeline import ingest_documents
 from knowledgehub_ai.indexing.vector_store import build_vector_store
 
 
-TOP_K = 3
+TOP_K = 5
 
 
 def precision_at_k(retrieved_ids, relevant_ids, k):
@@ -81,6 +81,7 @@ def main():
     evaluation_directory = Path("data/evaluation")
 
     ground_truth_path = evaluation_directory / "ground_truth.json"
+
 
     with ground_truth_path.open("r", encoding="utf-8") as file:
         ground_truth = json.load(file)
@@ -163,7 +164,7 @@ def main():
         "results": results,
     }
 
-    output_path = evaluation_directory / "retrieval_baseline.json"
+    output_path = evaluation_directory / "retrieval_top5.json"
 
     output_path.write_text(
         json.dumps(report, indent=4, ensure_ascii=False),
