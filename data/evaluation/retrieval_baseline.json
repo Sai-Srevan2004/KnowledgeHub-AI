@@ -1,0 +1,522 @@
+{
+    "top_k": 3,
+    "total_questions": 28,
+    "averages": {
+        "precision": 0.39285714285714285,
+        "recall": 0.9821428571428571,
+        "mrr": 0.880952380952381,
+        "ndcg": 0.894243015549767
+    },
+    "results": [
+        {
+            "id": "Q001",
+            "question": "How many weeks of parental leave do eligible employees receive?",
+            "expected_chunk_ids": [
+                0
+            ],
+            "retrieved_chunk_ids": [
+                0,
+                1,
+                25
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q002",
+            "question": "How far in advance should employees submit a parental leave request when possible?",
+            "expected_chunk_ids": [
+                0
+            ],
+            "retrieved_chunk_ids": [
+                0,
+                1,
+                33
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q003",
+            "question": "How many days of annual leave do full-time employees receive per calendar year?",
+            "expected_chunk_ids": [
+                1
+            ],
+            "retrieved_chunk_ids": [
+                1,
+                0,
+                34
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q004",
+            "question": "Who must approve an employee's annual leave request?",
+            "expected_chunk_ids": [
+                1
+            ],
+            "retrieved_chunk_ids": [
+                1,
+                33,
+                14
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q005",
+            "question": "Can employees request remote work, and who approves the arrangement?",
+            "expected_chunk_ids": [
+                1
+            ],
+            "retrieved_chunk_ids": [
+                47,
+                1,
+                56
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 0.5,
+                "ndcg": 0.6309297535714575
+            }
+        },
+        {
+            "id": "Q006",
+            "question": "What is the normal probation period for new regular full-time employees?",
+            "expected_chunk_ids": [
+                25
+            ],
+            "retrieved_chunk_ids": [
+                25,
+                27,
+                26
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q007",
+            "question": "Who confirms successful completion of probation, and how is it communicated?",
+            "expected_chunk_ids": [
+                27
+            ],
+            "retrieved_chunk_ids": [
+                27,
+                26,
+                25
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q008",
+            "question": "How often is a formal performance review normally conducted?",
+            "expected_chunk_ids": [
+                28
+            ],
+            "retrieved_chunk_ids": [
+                28,
+                29,
+                26
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q009",
+            "question": "What training must new employees complete?",
+            "expected_chunk_ids": [
+                23,
+                24
+            ],
+            "retrieved_chunk_ids": [
+                30,
+                24,
+                23
+            ],
+            "metrics": {
+                "precision": 0.6666666666666666,
+                "recall": 1.0,
+                "mrr": 0.5,
+                "ndcg": 0.6934264036172708
+            }
+        },
+        {
+            "id": "Q010",
+            "question": "What information must employees keep up to date in the HR system?",
+            "expected_chunk_ids": [
+                32
+            ],
+            "retrieved_chunk_ids": [
+                32,
+                34,
+                24
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q011",
+            "question": "What details and documents must an employee include when submitting an expense claim?",
+            "expected_chunk_ids": [
+                8,
+                9
+            ],
+            "retrieved_chunk_ids": [
+                8,
+                70,
+                14
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 0.5,
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+            }
+        },
+        {
+            "id": "Q012",
+            "question": "Within how many days should employees normally submit an expense claim?",
+            "expected_chunk_ids": [
+                10
+            ],
+            "retrieved_chunk_ids": [
+                10,
+                8,
+                14
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q013",
+            "question": "What should an employee do if an expense receipt is unavailable?",
+            "expected_chunk_ids": [
+                12
+            ],
+            "retrieved_chunk_ids": [
+                12,
+                11,
+                13
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q014",
+            "question": "Who reviews an expense claim and what does Finance check?",
+            "expected_chunk_ids": [
+                13
+            ],
+            "retrieved_chunk_ids": [
+                13,
+                8,
+                14
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q015",
+            "question": "Can an employee approve their own expense claim?",
+            "expected_chunk_ids": [
+                14
+            ],
+            "retrieved_chunk_ids": [
+                14,
+                8,
+                16
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q016",
+            "question": "What approval is required before booking business travel?",
+            "expected_chunk_ids": [
+                55,
+                56
+            ],
+            "retrieved_chunk_ids": [
+                55,
+                56,
+                57
+            ],
+            "metrics": {
+                "precision": 0.6666666666666666,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q017",
+            "question": "What class of travel should employees normally choose for standard business trips?",
+            "expected_chunk_ids": [
+                60
+            ],
+            "retrieved_chunk_ids": [
+                60,
+                68,
+                57
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q018",
+            "question": "Who is responsible for the additional costs when an employee combines personal travel with a business trip?",
+            "expected_chunk_ids": [
+                69
+            ],
+            "retrieved_chunk_ids": [
+                68,
+                69,
+                70
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 0.5,
+                "ndcg": 0.6309297535714575
+            }
+        },
+        {
+            "id": "Q019",
+            "question": "What should employees do if an emergency or safety concern occurs during a business trip?",
+            "expected_chunk_ids": [
+                67
+            ],
+            "retrieved_chunk_ids": [
+                67,
+                66,
+                58
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q020",
+            "question": "How should employees report a lost or stolen company laptop?",
+            "expected_chunk_ids": [
+                39
+            ],
+            "retrieved_chunk_ids": [
+                38,
+                49,
+                39
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 0.3333333333333333,
+                "ndcg": 0.5
+            }
+        },
+        {
+            "id": "Q021",
+            "question": "When must an employee change a company password?",
+            "expected_chunk_ids": [
+                41,
+                42
+            ],
+            "retrieved_chunk_ids": [
+                42,
+                41,
+                40
+            ],
+            "metrics": {
+                "precision": 0.6666666666666666,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q022",
+            "question": "Where may employees obtain software for company devices?",
+            "expected_chunk_ids": [
+                43
+            ],
+            "retrieved_chunk_ids": [
+                38,
+                34,
+                43
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 0.3333333333333333,
+                "ndcg": 0.5
+            }
+        },
+        {
+            "id": "Q023",
+            "question": "How should employees access company systems while working remotely?",
+            "expected_chunk_ids": [
+                47,
+                48
+            ],
+            "retrieved_chunk_ids": [
+                47,
+                38,
+                48
+            ],
+            "metrics": {
+                "precision": 0.6666666666666666,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 0.9197207891481876
+            }
+        },
+        {
+            "id": "Q024",
+            "question": "What should employees do if they suspect a phishing message or malware infection?",
+            "expected_chunk_ids": [
+                49,
+                50
+            ],
+            "retrieved_chunk_ids": [
+                49,
+                88,
+                50
+            ],
+            "metrics": {
+                "precision": 0.6666666666666666,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 0.9197207891481876
+            }
+        },
+        {
+            "id": "Q025",
+            "question": "To whom should an employee disclose an actual or potential conflict of interest?",
+            "expected_chunk_ids": [
+                81
+            ],
+            "retrieved_chunk_ids": [
+                81,
+                22,
+                80
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q026",
+            "question": "Who can an employee contact if a workplace concern involves their manager?",
+            "expected_chunk_ids": [
+                85
+            ],
+            "retrieved_chunk_ids": [
+                85,
+                90,
+                81
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        },
+        {
+            "id": "Q027",
+            "question": "Does the policy prohibit retaliation against employees who raise concerns in good faith?",
+            "expected_chunk_ids": [
+                87
+            ],
+            "retrieved_chunk_ids": [
+                85,
+                87,
+                75
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 0.5,
+                "ndcg": 0.6309297535714575
+            }
+        },
+        {
+            "id": "Q028",
+            "question": "What should employees do if they cannot attend an important meeting?",
+            "expected_chunk_ids": [
+                79
+            ],
+            "retrieved_chunk_ids": [
+                79,
+                78,
+                58
+            ],
+            "metrics": {
+                "precision": 0.3333333333333333,
+                "recall": 1.0,
+                "mrr": 1.0,
+                "ndcg": 1.0
+            }
+        }
+    ]
+}

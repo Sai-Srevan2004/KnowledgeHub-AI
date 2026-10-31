@@ -1,0 +1,426 @@
+[
+    {
+        "id": "Q001",
+        "question": "How many weeks of parental leave do eligible employees receive?",
+        "expected_answer": "Eligible employees receive 16 weeks of parental leave.",
+        "source": "employee_handbook.txt",
+        "relevant_chunk_ids": [
+            0
+        ],
+        "relevance_grades": {
+            "0": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q002",
+        "question": "How far in advance should employees submit a parental leave request when possible?",
+        "expected_answer": "Employees should submit the request through the HR portal at least 30 days before the expected leave date when possible.",
+        "source": "employee_handbook.txt",
+        "relevant_chunk_ids": [
+            0
+        ],
+        "relevance_grades": {
+            "0": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q003",
+        "question": "How many days of annual leave do full-time employees receive per calendar year?",
+        "expected_answer": "Full-time employees receive 20 days of annual leave per calendar year.",
+        "source": "employee_handbook.txt",
+        "relevant_chunk_ids": [
+            1
+        ],
+        "relevance_grades": {
+            "1": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q004",
+        "question": "Who must approve an employee's annual leave request?",
+        "expected_answer": "The employee's manager must approve the annual leave request.",
+        "source": "employee_handbook.txt",
+        "relevant_chunk_ids": [
+            1
+        ],
+        "relevance_grades": {
+            "1": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q005",
+        "question": "Can employees request remote work, and who approves the arrangement?",
+        "expected_answer": "Employees may request remote work arrangements with manager approval. Some roles may require employees to work from the office.",
+        "source": "employee_handbook.txt",
+        "relevant_chunk_ids": [
+            1
+        ],
+        "relevance_grades": {
+            "1": 3
+        },
+        "question_type": "policy_procedure",
+        "answerable": true
+    },
+    {
+        "id": "Q006",
+        "question": "What is the normal probation period for new regular full-time employees?",
+        "expected_answer": "The normal probation period is six months, unless the offer letter states a different period.",
+        "source": "hr_policies.txt",
+        "relevant_chunk_ids": [
+            25
+        ],
+        "relevance_grades": {
+            "25": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q007",
+        "question": "Who confirms successful completion of probation, and how is it communicated?",
+        "expected_answer": "HR confirms successful completion of probation in writing.",
+        "source": "hr_policies.txt",
+        "relevant_chunk_ids": [
+            27
+        ],
+        "relevance_grades": {
+            "27": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q008",
+        "question": "How often is a formal performance review normally conducted?",
+        "expected_answer": "A formal performance review is normally conducted once each year.",
+        "source": "hr_policies.txt",
+        "relevant_chunk_ids": [
+            28
+        ],
+        "relevance_grades": {
+            "28": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q009",
+        "question": "What training must new employees complete?",
+        "expected_answer": "New employees must complete mandatory security, conduct, and workplace-safety training within the time communicated by HR.",
+        "source": "hr_policies.txt",
+        "relevant_chunk_ids": [
+            23,
+            24
+        ],
+        "relevance_grades": {
+            "23": 3,
+            "24": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q010",
+        "question": "What information must employees keep up to date in the HR system?",
+        "expected_answer": "Employees must keep their contact details, emergency contact information, and bank or tax details up to date.",
+        "source": "hr_policies.txt",
+        "relevant_chunk_ids": [
+            32
+        ],
+        "relevance_grades": {
+            "32": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q011",
+        "question": "What details and documents must an employee include when submitting an expense claim?",
+        "expected_answer": "The claim must include the transaction date, amount and currency, business purpose, relevant cost centre or project when applicable, an itemized receipt or invoice, and evidence of prior approval when required.",
+        "source": "finance_reimbursement_policy.txt",
+        "relevant_chunk_ids": [
+            8,
+            9
+        ],
+        "relevance_grades": {
+            "8": 3,
+            "9": 3
+        },
+        "question_type": "multi_detail",
+        "answerable": true
+    },
+    {
+        "id": "Q012",
+        "question": "Within how many days should employees normally submit an expense claim?",
+        "expected_answer": "Employees should normally submit an expense claim within 30 calendar days after the expense is incurred.",
+        "source": "finance_reimbursement_policy.txt",
+        "relevant_chunk_ids": [
+            10
+        ],
+        "relevance_grades": {
+            "10": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q013",
+        "question": "What should an employee do if an expense receipt is unavailable?",
+        "expected_answer": "The employee must provide a written explanation and any alternative supporting evidence. Finance decides whether the claim can be processed.",
+        "source": "finance_reimbursement_policy.txt",
+        "relevant_chunk_ids": [
+            12
+        ],
+        "relevance_grades": {
+            "12": 3
+        },
+        "question_type": "policy_procedure",
+        "answerable": true
+    },
+    {
+        "id": "Q014",
+        "question": "Who reviews an expense claim and what does Finance check?",
+        "expected_answer": "The employee's manager reviews the business purpose and confirms the expense was appropriate. Finance checks policy compliance, required documents, coding, and duplicate submissions.",
+        "source": "finance_reimbursement_policy.txt",
+        "relevant_chunk_ids": [
+            13
+        ],
+        "relevance_grades": {
+            "13": 3
+        },
+        "question_type": "multi_detail",
+        "answerable": true
+    },
+    {
+        "id": "Q015",
+        "question": "Can an employee approve their own expense claim?",
+        "expected_answer": "No. Employees must not approve their own expense claims.",
+        "source": "finance_reimbursement_policy.txt",
+        "relevant_chunk_ids": [
+            14
+        ],
+        "relevance_grades": {
+            "14": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q016",
+        "question": "What approval is required before booking business travel?",
+        "expected_answer": "Employees must obtain written manager approval before booking business travel. The request should state the business purpose, destination, proposed dates, estimated cost, and project or cost centre.",
+        "source": "travel_policy.txt",
+        "relevant_chunk_ids": [
+            55,
+            56
+        ],
+        "relevance_grades": {
+            "55": 3,
+            "56": 3
+        },
+        "question_type": "policy_procedure",
+        "answerable": true
+    },
+    {
+        "id": "Q017",
+        "question": "What class of travel should employees normally choose for standard business trips?",
+        "expected_answer": "Employees should select a practical economy-class option unless an exception is approved in writing by the department head.",
+        "source": "travel_policy.txt",
+        "relevant_chunk_ids": [
+            60
+        ],
+        "relevance_grades": {
+            "60": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q018",
+        "question": "Who is responsible for the additional costs when an employee combines personal travel with a business trip?",
+        "expected_answer": "The employee is responsible for additional personal travel, accommodation, meals, and insurance. The company reimburses only the costs that would have been incurred for the approved business itinerary.",
+        "source": "travel_policy.txt",
+        "relevant_chunk_ids": [
+            69
+        ],
+        "relevance_grades": {
+            "69": 3
+        },
+        "question_type": "policy_procedure",
+        "answerable": true
+    },
+    {
+        "id": "Q019",
+        "question": "What should employees do if an emergency or safety concern occurs during a business trip?",
+        "expected_answer": "The employee must report the emergency, accident, illness, lost travel document, or safety concern to the manager and contact the appropriate local emergency service where necessary.",
+        "source": "travel_policy.txt",
+        "relevant_chunk_ids": [
+            67
+        ],
+        "relevance_grades": {
+            "67": 3
+        },
+        "question_type": "policy_procedure",
+        "answerable": true
+    },
+    {
+        "id": "Q020",
+        "question": "How should employees report a lost or stolen company laptop?",
+        "expected_answer": "Lost or stolen devices must be reported to the IT Help Desk immediately.",
+        "source": "it_policies.txt",
+        "relevant_chunk_ids": [
+            39
+        ],
+        "relevance_grades": {
+            "39": 3
+        },
+        "question_type": "policy_procedure",
+        "answerable": true
+    },
+    {
+        "id": "Q021",
+        "question": "When must an employee change a company password?",
+        "expected_answer": "The employee must change the password immediately if they suspect it has been exposed. The company also requires a password change when compromise is suspected or when instructed by the security team.",
+        "source": "it_policies.txt",
+        "relevant_chunk_ids": [
+            41,
+            42
+        ],
+        "relevance_grades": {
+            "41": 3,
+            "42": 3
+        },
+        "question_type": "multi_chunk",
+        "answerable": true
+    },
+    {
+        "id": "Q022",
+        "question": "Where may employees obtain software for company devices?",
+        "expected_answer": "Employees may install software only from the company-approved software catalogue or after receiving written approval from IT.",
+        "source": "it_policies.txt",
+        "relevant_chunk_ids": [
+            43
+        ],
+        "relevance_grades": {
+            "43": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q023",
+        "question": "How should employees access company systems while working remotely?",
+        "expected_answer": "Employees working remotely must connect through the company-approved secure access service. Public Wi-Fi should be avoided for sensitive work unless the approved secure connection is active.",
+        "source": "it_policies.txt",
+        "relevant_chunk_ids": [
+            47,
+            48
+        ],
+        "relevance_grades": {
+            "47": 3,
+            "48": 3
+        },
+        "question_type": "policy_procedure",
+        "answerable": true
+    },
+    {
+        "id": "Q024",
+        "question": "What should employees do if they suspect a phishing message or malware infection?",
+        "expected_answer": "They must report the suspected phishing message or malware infection to the IT Help Desk as soon as possible, preserve relevant evidence, and not investigate or delete evidence unless instructed.",
+        "source": "it_policies.txt",
+        "relevant_chunk_ids": [
+            49,
+            50
+        ],
+        "relevance_grades": {
+            "49": 3,
+            "50": 3
+        },
+        "question_type": "policy_procedure",
+        "answerable": true
+    },
+    {
+        "id": "Q025",
+        "question": "To whom should an employee disclose an actual or potential conflict of interest?",
+        "expected_answer": "Employees must disclose actual or potential conflicts of interest to their manager or HR.",
+        "source": "workplace_conduct_policy.txt",
+        "relevant_chunk_ids": [
+            81
+        ],
+        "relevance_grades": {
+            "81": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q026",
+        "question": "Who can an employee contact if a workplace concern involves their manager?",
+        "expected_answer": "The employee may contact HR directly.",
+        "source": "workplace_conduct_policy.txt",
+        "relevant_chunk_ids": [
+            85
+        ],
+        "relevance_grades": {
+            "85": 3
+        },
+        "question_type": "policy_procedure",
+        "answerable": true
+    },
+    {
+        "id": "Q027",
+        "question": "Does the policy prohibit retaliation against employees who raise concerns in good faith?",
+        "expected_answer": "Yes. Retaliation against someone who raises a concern in good faith or participates in an investigation is prohibited.",
+        "source": "workplace_conduct_policy.txt",
+        "relevant_chunk_ids": [
+            87
+        ],
+        "relevance_grades": {
+            "87": 3
+        },
+        "question_type": "direct_lookup",
+        "answerable": true
+    },
+    {
+        "id": "Q028",
+        "question": "What should employees do if they cannot attend an important meeting?",
+        "expected_answer": "They should notify the organizer when possible and review relevant notes or assigned actions.",
+        "source": "workplace_conduct_policy.txt",
+        "relevant_chunk_ids": [
+            79
+        ],
+        "relevance_grades": {
+            "79": 3
+        },
+        "question_type": "policy_procedure",
+        "answerable": true
+    },
+    {
+        "id": "Q029",
+        "question": "How many paid sick leave days are provided to employees each year?",
+        "expected_answer": "The provided policy documents do not specify an annual number of paid sick leave days.",
+        "source": null,
+        "relevant_chunk_ids": [],
+        "relevance_grades": {},
+        "question_type": "unanswerable",
+        "answerable": false
+    },
+    {
+        "id": "Q030",
+        "question": "What is the exact monthly salary reimbursement limit for home internet?",
+        "expected_answer": "The provided policy documents do not specify a monthly home internet reimbursement limit.",
+        "source": null,
+        "relevant_chunk_ids": [],
+        "relevance_grades": {},
+        "question_type": "unanswerable",
+        "answerable": false
+    }
+]

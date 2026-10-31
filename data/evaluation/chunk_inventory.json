@@ -1,0 +1,548 @@
+[
+    {
+        "chunk_id": 0,
+        "source": "employee_handbook.txt",
+        "chunk_index": 0,
+        "content": "# Employee Handbook\n\n## Parental Leave\nEligible employees receive 16 weeks of parental leave. Employees should submit parental leave requests through the HR portal at least 30 days before the expected leave date when possible."
+    },
+    {
+        "chunk_id": 1,
+        "source": "employee_handbook.txt",
+        "chunk_index": 1,
+        "content": "## Annual Leave\nFull-time employees receive 20 days of annual leave per calendar year. Leave requests must be approved by the employee's manager.\n\n## Remote Work\nEmployees may request remote work arrangements with manager approval. Some roles may require employees to work from the office."
+    },
+    {
+        "chunk_id": 2,
+        "source": "employee_handbook.txt",
+        "chunk_index": 2,
+        "content": "## IT Support\nEmployees experiencing account access issues should contact the IT help desk. Employees must never share their passwords with anyone."
+    },
+    {
+        "chunk_id": 3,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 3,
+        "content": "NORTHSTAR TECHNOLOGIES\nEXPENSE REIMBURSEMENT POLICY\nVersion: 1.0\nEffective date: 1 January 2026\n\n1. PURPOSE\nThis policy explains how employees request reimbursement for approved business expenses. It applies to employees who incur expenses on behalf of Northstar Technologies."
+    },
+    {
+        "chunk_id": 4,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 4,
+        "content": "2. ELIGIBLE EXPENSES\nReasonable expenses that are necessary for an approved business activity may be reimbursed. Examples include approved business travel, client meeting costs, role-related training approved in advance, and required business supplies."
+    },
+    {
+        "chunk_id": 5,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 5,
+        "content": "Personal purchases, traffic fines, personal entertainment, and expenses without a clear business purpose are not reimbursable."
+    },
+    {
+        "chunk_id": 6,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 6,
+        "content": "3. PRIOR APPROVAL\nEmployees must obtain manager approval before making a non-routine purchase or committing to a business expense that exceeds the spending limit assigned to their team."
+    },
+    {
+        "chunk_id": 7,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 7,
+        "content": "Training, conference registration, and equipment purchases require written manager approval before booking or purchase.\nAn approval does not guarantee reimbursement if the expense violates this policy or lacks required documentation."
+    },
+    {
+        "chunk_id": 8,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 8,
+        "content": "4. SUBMITTING A CLAIM\nEmployees must submit an expense claim through the company expense portal. Each claim must include:\n- The transaction date.\n- The amount and currency.\n- The business purpose.\n- The relevant cost centre or project, when applicable.\n- An itemized receipt or invoice."
+    },
+    {
+        "chunk_id": 9,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 9,
+        "content": "- An itemized receipt or invoice.\n- Evidence of prior approval when required."
+    },
+    {
+        "chunk_id": 10,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 10,
+        "content": "Claims should normally be submitted within 30 calendar days after the expense is incurred. If an employee cannot meet this deadline, the employee must contact Finance and explain the delay."
+    },
+    {
+        "chunk_id": 11,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 11,
+        "content": "5. RECEIPTS AND MISSING DOCUMENTATION\nAn itemized receipt is required for each expense unless Finance confirms an exception in writing. A bank or card statement alone may not provide enough detail to establish what was purchased."
+    },
+    {
+        "chunk_id": 12,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 12,
+        "content": "If a receipt is unavailable, the employee must provide a written explanation and any alternative supporting evidence. Finance decides whether the claim can be processed."
+    },
+    {
+        "chunk_id": 13,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 13,
+        "content": "6. REVIEW AND APPROVAL\nThe employee's manager reviews the business purpose and confirms that the expense was appropriate. Finance checks the claim for policy compliance, required documents, coding, and duplicate submissions."
+    },
+    {
+        "chunk_id": 14,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 14,
+        "content": "Employees must not approve their own expense claims. Claims involving a manager's personal expenses must be approved by that manager's designated approver."
+    },
+    {
+        "chunk_id": 15,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 15,
+        "content": "7. REIMBURSEMENT\nApproved claims are included in the next available reimbursement payment cycle. Processing time may vary depending on the completeness of the claim and the payment schedule.\nFinance may return an incomplete claim to the employee for correction."
+    },
+    {
+        "chunk_id": 16,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 16,
+        "content": "8. PROHIBITED PRACTICES\nEmployees must not split a purchase into multiple claims to avoid an approval threshold. Employees must not submit altered receipts, duplicate claims, personal expenses, or expenses already paid by another party."
+    },
+    {
+        "chunk_id": 17,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 17,
+        "content": "Suspected fraud must be reported to Finance or the appropriate compliance contact."
+    },
+    {
+        "chunk_id": 18,
+        "source": "finance_reimbursement_policy.txt",
+        "chunk_index": 18,
+        "content": "9. QUESTIONS\nQuestions about claim status, receipts, expense categories, or reimbursement processing should be submitted through the Finance support channel in the employee portal."
+    },
+    {
+        "chunk_id": 19,
+        "source": "hr_policies.txt",
+        "chunk_index": 19,
+        "content": "NORTHSTAR TECHNOLOGIES\nHUMAN RESOURCES POLICY\nVersion: 1.0\nEffective date: 1 January 2026"
+    },
+    {
+        "chunk_id": 20,
+        "source": "hr_policies.txt",
+        "chunk_index": 20,
+        "content": "1. PURPOSE AND SCOPE\nThis policy describes key human resources processes at Northstar Technologies. It applies to regular full-time employees unless a section states otherwise. Employment contracts and applicable local law take precedence if they provide different requirements."
+    },
+    {
+        "chunk_id": 21,
+        "source": "hr_policies.txt",
+        "chunk_index": 21,
+        "content": "2. RECRUITMENT\nHiring decisions are based on role requirements, relevant skills, experience, and structured interview feedback. Interviewers must record job-related feedback in the approved recruitment system."
+    },
+    {
+        "chunk_id": 22,
+        "source": "hr_policies.txt",
+        "chunk_index": 22,
+        "content": "Candidates must not be asked for information that is unrelated to the role or prohibited by applicable law. Any employee involved in a hiring decision must disclose a personal or financial conflict of interest."
+    },
+    {
+        "chunk_id": 23,
+        "source": "hr_policies.txt",
+        "chunk_index": 23,
+        "content": "3. JOINING AND ONBOARDING\nNew employees receive an onboarding plan from their manager and HR. The plan normally includes an introduction to the team, role expectations, required training, company policies, and access to approved work systems."
+    },
+    {
+        "chunk_id": 24,
+        "source": "hr_policies.txt",
+        "chunk_index": 24,
+        "content": "Employees must complete mandatory security, conduct, and workplace-safety training within the time communicated by HR."
+    },
+    {
+        "chunk_id": 25,
+        "source": "hr_policies.txt",
+        "chunk_index": 25,
+        "content": "4. PROBATION\nNew regular full-time employees normally have a probation period of six months, unless their offer letter states a different period."
+    },
+    {
+        "chunk_id": 26,
+        "source": "hr_policies.txt",
+        "chunk_index": 26,
+        "content": "During probation, the manager should provide feedback on role expectations, work quality, collaboration, and development needs. HR may coordinate a review before the probation period ends."
+    },
+    {
+        "chunk_id": 27,
+        "source": "hr_policies.txt",
+        "chunk_index": 27,
+        "content": "Successful completion of probation is confirmed in writing by HR. If additional assessment time is required, HR will communicate the next steps and any applicable extension in writing."
+    },
+    {
+        "chunk_id": 28,
+        "source": "hr_policies.txt",
+        "chunk_index": 28,
+        "content": "5. PERFORMANCE REVIEWS\nManagers are expected to discuss goals and performance with employees regularly. A formal performance review is normally conducted once each year."
+    },
+    {
+        "chunk_id": 29,
+        "source": "hr_policies.txt",
+        "chunk_index": 29,
+        "content": "The review considers agreed objectives, quality of work, collaboration, professional conduct, and development progress. Employees may add comments to their review record."
+    },
+    {
+        "chunk_id": 30,
+        "source": "hr_policies.txt",
+        "chunk_index": 30,
+        "content": "6. LEARNING AND DEVELOPMENT\nEmployees may request role-related training through their manager. Approval depends on business need, available budget, and the relevance of the training to the employee's role.\nMandatory compliance and security training must be completed by the assigned deadline."
+    },
+    {
+        "chunk_id": 31,
+        "source": "hr_policies.txt",
+        "chunk_index": 31,
+        "content": "7. INTERNAL TRANSFERS\nEmployees interested in another internal role should discuss the opportunity with their manager and apply through the internal careers portal. Selection depends on the role requirements and the internal recruitment process."
+    },
+    {
+        "chunk_id": 32,
+        "source": "hr_policies.txt",
+        "chunk_index": 32,
+        "content": "8. EMPLOYEE RECORDS\nEmployees must keep their contact details, emergency contact information, and bank or tax details up to date in the HR system. Access to employee records is restricted to authorized personnel with a legitimate business need."
+    },
+    {
+        "chunk_id": 33,
+        "source": "hr_policies.txt",
+        "chunk_index": 33,
+        "content": "9. RESIGNATION AND EXIT\nEmployees who resign must submit written notice through the process described in their employment agreement. HR and the manager coordinate handover, return of company property, and removal of system access."
+    },
+    {
+        "chunk_id": 34,
+        "source": "hr_policies.txt",
+        "chunk_index": 34,
+        "content": "Employees must return company devices, access cards, documents, and other company property by the date communicated by HR."
+    },
+    {
+        "chunk_id": 35,
+        "source": "hr_policies.txt",
+        "chunk_index": 35,
+        "content": "10. QUESTIONS\nEmployees should contact HR through the employee portal for questions about onboarding, probation, performance reviews, employee records, or exit procedures."
+    },
+    {
+        "chunk_id": 36,
+        "source": "it_policies.txt",
+        "chunk_index": 36,
+        "content": "NORTHSTAR TECHNOLOGIES\nINFORMATION TECHNOLOGY AND SECURITY POLICY\nVersion: 1.0\nEffective date: 1 January 2026"
+    },
+    {
+        "chunk_id": 37,
+        "source": "it_policies.txt",
+        "chunk_index": 37,
+        "content": "1. PURPOSE\nThis policy explains how employees must use company devices, accounts, software, networks, and information systems. It applies to employees and approved contractors who access Northstar Technologies resources."
+    },
+    {
+        "chunk_id": 38,
+        "source": "it_policies.txt",
+        "chunk_index": 38,
+        "content": "2. COMPANY DEVICES\nEmployees must use company-issued laptops and phones primarily for authorized business activities. Devices must be protected with a password, PIN, or biometric lock. Employees must lock their screens whenever they leave a device unattended."
+    },
+    {
+        "chunk_id": 39,
+        "source": "it_policies.txt",
+        "chunk_index": 39,
+        "content": "Employees must not disable endpoint protection, disk encryption, firewall controls, or automatic security updates. Lost or stolen devices must be reported to the IT Help Desk immediately."
+    },
+    {
+        "chunk_id": 40,
+        "source": "it_policies.txt",
+        "chunk_index": 40,
+        "content": "3. PASSWORDS AND MULTI-FACTOR AUTHENTICATION\nPasswords must be unique to the company account and must not be reused on personal websites. Employees must never share passwords or approve an unexpected multi-factor authentication request."
+    },
+    {
+        "chunk_id": 41,
+        "source": "it_policies.txt",
+        "chunk_index": 41,
+        "content": "Company accounts require multi-factor authentication wherever the service supports it. If an employee suspects that a password has been exposed, the employee must change it immediately and contact the IT Help Desk."
+    },
+    {
+        "chunk_id": 42,
+        "source": "it_policies.txt",
+        "chunk_index": 42,
+        "content": "The company will require a password change when compromise is suspected or when instructed by the security team. Employees are not required to change passwords on an arbitrary monthly schedule."
+    },
+    {
+        "chunk_id": 43,
+        "source": "it_policies.txt",
+        "chunk_index": 43,
+        "content": "4. SOFTWARE INSTALLATION\nEmployees may install software only from the company-approved software catalogue or after receiving written approval from IT. Employees must not install pirated software, unlicensed tools, cryptocurrency miners, or software obtained from untrusted sources."
+    },
+    {
+        "chunk_id": 44,
+        "source": "it_policies.txt",
+        "chunk_index": 44,
+        "content": "Requests for new software must include the business purpose and the required access permissions."
+    },
+    {
+        "chunk_id": 45,
+        "source": "it_policies.txt",
+        "chunk_index": 45,
+        "content": "5. DATA HANDLING\nConfidential company information must be stored only in approved company-managed systems. Employees must not send confidential files to personal email accounts or upload them to unapproved file-sharing services."
+    },
+    {
+        "chunk_id": 46,
+        "source": "it_policies.txt",
+        "chunk_index": 46,
+        "content": "Sensitive information must be shared only with people who have a legitimate business need. External sharing links must use access controls and an expiry date when available."
+    },
+    {
+        "chunk_id": 47,
+        "source": "it_policies.txt",
+        "chunk_index": 47,
+        "content": "6. NETWORK AND REMOTE ACCESS\nEmployees working remotely must connect through the company-approved secure access service. Public Wi-Fi should be avoided for sensitive work unless the approved secure connection is active."
+    },
+    {
+        "chunk_id": 48,
+        "source": "it_policies.txt",
+        "chunk_index": 48,
+        "content": "Employees must not bypass network security controls or share their company network access with another person."
+    },
+    {
+        "chunk_id": 49,
+        "source": "it_policies.txt",
+        "chunk_index": 49,
+        "content": "7. REPORTING SECURITY INCIDENTS\nA suspected phishing message, malware infection, accidental data disclosure, lost device, or unauthorized account access must be reported to the IT Help Desk as soon as possible."
+    },
+    {
+        "chunk_id": 50,
+        "source": "it_policies.txt",
+        "chunk_index": 50,
+        "content": "Employees should preserve relevant messages or evidence and must not attempt to investigate or delete evidence unless instructed by IT or the security team."
+    },
+    {
+        "chunk_id": 51,
+        "source": "it_policies.txt",
+        "chunk_index": 51,
+        "content": "8. IT SUPPORT\nEmployees can contact the IT Help Desk through the internal support portal or the company support email listed on the employee intranet. Each request should include the employee's name, device or application affected, a description of the issue, and any relevant error message."
+    },
+    {
+        "chunk_id": 52,
+        "source": "it_policies.txt",
+        "chunk_index": 52,
+        "content": "Critical incidents affecting access to business systems should be marked as urgent in the support portal."
+    },
+    {
+        "chunk_id": 53,
+        "source": "it_policies.txt",
+        "chunk_index": 53,
+        "content": "9. POLICY EXCEPTIONS\nExceptions require written approval from the IT Security Manager before the employee changes a security setting or uses an unapproved service.\n\n10. REVIEW\nThe IT and Security team reviews this policy at least once a year and after a significant security incident."
+    },
+    {
+        "chunk_id": 54,
+        "source": "travel_policy.txt",
+        "chunk_index": 54,
+        "content": "NORTHSTAR TECHNOLOGIES\nBUSINESS TRAVEL POLICY\nVersion: 1.0\nEffective date: 1 January 2026\n\n1. PURPOSE AND SCOPE\nThis policy sets expectations for employees travelling on approved company business. It covers trip approval, booking, accommodation, local transport, travel safety, and expense claims."
+    },
+    {
+        "chunk_id": 55,
+        "source": "travel_policy.txt",
+        "chunk_index": 55,
+        "content": "2. TRAVEL APPROVAL\nEmployees must obtain written manager approval before booking business travel. The request should state the business purpose, destination, proposed dates, estimated cost, and project or cost centre."
+    },
+    {
+        "chunk_id": 56,
+        "source": "travel_policy.txt",
+        "chunk_index": 56,
+        "content": "International travel may require additional approval from the department head and any review required by the company's security or legal teams.\nEmployees must not assume that a travel request is approved until the required approver has confirmed it."
+    },
+    {
+        "chunk_id": 57,
+        "source": "travel_policy.txt",
+        "chunk_index": 57,
+        "content": "3. BOOKING\nEmployees should use the company-designated travel booking channel where available. Travel should be booked early enough to obtain reasonable fares while meeting business requirements."
+    },
+    {
+        "chunk_id": 58,
+        "source": "travel_policy.txt",
+        "chunk_index": 58,
+        "content": "The lowest available fare is not automatically the best option if it creates unreasonable travel times, safety concerns, or prevents the employee from meeting the business purpose."
+    },
+    {
+        "chunk_id": 59,
+        "source": "travel_policy.txt",
+        "chunk_index": 59,
+        "content": "Personal upgrades and optional leisure extensions are the employee's responsibility unless explicitly approved in writing."
+    },
+    {
+        "chunk_id": 60,
+        "source": "travel_policy.txt",
+        "chunk_index": 60,
+        "content": "4. AIR AND RAIL TRAVEL\nEmployees should select a practical economy-class option for standard business trips unless an exception is approved in writing by the department head.\nEmployees should retain booking confirmations and proof of payment for their expense claim."
+    },
+    {
+        "chunk_id": 61,
+        "source": "travel_policy.txt",
+        "chunk_index": 61,
+        "content": "Changes or cancellations caused by business needs should be discussed with the manager and travel support channel as soon as possible."
+    },
+    {
+        "chunk_id": 62,
+        "source": "travel_policy.txt",
+        "chunk_index": 62,
+        "content": "5. ACCOMMODATION\nEmployees should choose safe, reasonably priced accommodation close to the business destination where practical. The booking should comply with any location-specific spending guidance issued by Finance."
+    },
+    {
+        "chunk_id": 63,
+        "source": "travel_policy.txt",
+        "chunk_index": 63,
+        "content": "Personal services, minibar purchases, entertainment, and unrelated guest costs are not reimbursable."
+    },
+    {
+        "chunk_id": 64,
+        "source": "travel_policy.txt",
+        "chunk_index": 64,
+        "content": "6. LOCAL TRANSPORT\nEmployees should use safe and reasonably priced local transport. Public transport, approved ride services, or rental vehicles may be used when appropriate for the destination and business schedule."
+    },
+    {
+        "chunk_id": 65,
+        "source": "travel_policy.txt",
+        "chunk_index": 65,
+        "content": "Parking, tolls, and local transport costs must be supported by receipts or other documentation required by Finance."
+    },
+    {
+        "chunk_id": 66,
+        "source": "travel_policy.txt",
+        "chunk_index": 66,
+        "content": "7. TRAVEL SAFETY\nEmployees must review relevant travel advisories and follow company safety instructions. Employees should keep their manager informed of significant itinerary changes."
+    },
+    {
+        "chunk_id": 67,
+        "source": "travel_policy.txt",
+        "chunk_index": 67,
+        "content": "An emergency, accident, illness, lost travel document, or safety concern during a business trip must be reported to the manager and the appropriate local emergency service where necessary."
+    },
+    {
+        "chunk_id": 68,
+        "source": "travel_policy.txt",
+        "chunk_index": 68,
+        "content": "8. COMBINING BUSINESS AND PERSONAL TRAVEL\nAn employee may request to combine personal travel with a business trip. The manager must approve the arrangement in writing before booking."
+    },
+    {
+        "chunk_id": 69,
+        "source": "travel_policy.txt",
+        "chunk_index": 69,
+        "content": "The company will reimburse only the costs that would have been incurred for the approved business itinerary. Additional personal travel, accommodation, meals, and insurance are the employee's responsibility."
+    },
+    {
+        "chunk_id": 70,
+        "source": "travel_policy.txt",
+        "chunk_index": 70,
+        "content": "9. EXPENSE CLAIMS\nTravel expenses must be submitted under the Expense Reimbursement Policy. Claims must include receipts, the business purpose, travel dates, and evidence of required approvals.\nEmployees must not claim personal expenses as business travel costs."
+    },
+    {
+        "chunk_id": 71,
+        "source": "travel_policy.txt",
+        "chunk_index": 71,
+        "content": "10. QUESTIONS\nEmployees should contact the travel support channel or Finance through the employee portal for questions about bookings, travel approvals, or travel expense claims."
+    },
+    {
+        "chunk_id": 72,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 72,
+        "content": "NORTHSTAR TECHNOLOGIES\nWORKPLACE CONDUCT AND COMMUNICATION POLICY\nVersion: 1.0\nEffective date: 1 January 2026"
+    },
+    {
+        "chunk_id": 73,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 73,
+        "content": "1. PURPOSE\nNorthstar Technologies expects employees to contribute to a respectful, safe, inclusive, and professional workplace. This policy describes expected conduct and how workplace concerns should be raised."
+    },
+    {
+        "chunk_id": 74,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 74,
+        "content": "2. RESPECTFUL BEHAVIOUR\nEmployees must treat colleagues, customers, suppliers, and visitors with courtesy and respect. Harassment, bullying, intimidation, discrimination, threats, and retaliation are not acceptable."
+    },
+    {
+        "chunk_id": 75,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 75,
+        "content": "Disagreements should be handled professionally. Employees should focus on work-related issues and avoid personal attacks."
+    },
+    {
+        "chunk_id": 76,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 76,
+        "content": "3. PROFESSIONAL COMMUNICATION\nEmployees should use clear, respectful language in meetings, email, messaging tools, and work-related online spaces. Confidential business information must be shared only with authorized recipients."
+    },
+    {
+        "chunk_id": 77,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 77,
+        "content": "Employees should use company communication channels for business matters and follow applicable information-security requirements."
+    },
+    {
+        "chunk_id": 78,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 78,
+        "content": "4. MEETINGS AND COLLABORATION\nMeeting organizers should provide an agenda when practical and invite only people whose participation is useful. Participants should arrive on time, contribute constructively, and respect others' opportunity to speak."
+    },
+    {
+        "chunk_id": 79,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 79,
+        "content": "Employees who cannot attend an important meeting should notify the organizer when possible and review any relevant notes or assigned actions."
+    },
+    {
+        "chunk_id": 80,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 80,
+        "content": "5. CONFLICTS OF INTEREST"
+    },
+    {
+        "chunk_id": 81,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 81,
+        "content": "Employees must disclose actual or potential conflicts of interest to their manager or HR. Examples include participating in a decision involving a close relative, using company information for personal gain, or having an outside activity that interferes with job responsibilities."
+    },
+    {
+        "chunk_id": 82,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 82,
+        "content": "Employees must not use their role to obtain improper personal benefits."
+    },
+    {
+        "chunk_id": 83,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 83,
+        "content": "6. USE OF COMPANY RESOURCES\nCompany equipment, accounts, facilities, and funds must be used responsibly and in accordance with applicable policies. Limited personal use may be permitted when it does not interfere with work, create additional cost, or violate security requirements."
+    },
+    {
+        "chunk_id": 84,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 84,
+        "content": "Employees must not use company resources for unlawful, abusive, or unauthorized activities."
+    },
+    {
+        "chunk_id": 85,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 85,
+        "content": "7. RAISING A CONCERN\nEmployees may raise a workplace concern with their manager, HR, or the designated reporting channel. If the concern involves the employee's manager, the employee may contact HR directly."
+    },
+    {
+        "chunk_id": 86,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 86,
+        "content": "Reports should include relevant facts, dates, people involved, and available supporting information. Employees should cooperate with a fair review."
+    },
+    {
+        "chunk_id": 87,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 87,
+        "content": "8. CONFIDENTIALITY AND NON-RETALIATION\nConcerns will be handled as discreetly as practical, subject to the need to review the matter fairly. Retaliation against someone who raises a concern in good faith or participates in an investigation is prohibited."
+    },
+    {
+        "chunk_id": 88,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 88,
+        "content": "Knowingly making a malicious or deliberately false report may itself be addressed under company procedures."
+    },
+    {
+        "chunk_id": 89,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 89,
+        "content": "9. POLICY VIOLATIONS\nReported violations may be reviewed by HR and the appropriate business or compliance representatives. Any action will follow company procedures and applicable law."
+    },
+    {
+        "chunk_id": 90,
+        "source": "workplace_conduct_policy.txt",
+        "chunk_index": 90,
+        "content": "10. QUESTIONS\nEmployees may contact HR through the employee portal for guidance on workplace conduct, conflicts of interest, or reporting a concern."
+    }
+]

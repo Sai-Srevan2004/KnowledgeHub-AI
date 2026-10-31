@@ -40,6 +40,8 @@ def generate_answer(
 
     context = format_context(documents)
 
+    # print("==================================\n\n context:",context,"\n\n===============")
+
     if not context:
         return {
             "answer": "I couldn't find relevant information in the provided documents.",

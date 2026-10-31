@@ -1,0 +1,42 @@
+NORTHSTAR TECHNOLOGIES
+INFORMATION TECHNOLOGY AND SECURITY POLICY
+Version: 1.0
+Effective date: 1 January 2026
+
+1. PURPOSE
+This policy explains how employees must use company devices, accounts, software, networks, and information systems. It applies to employees and approved contractors who access Northstar Technologies resources.
+
+2. COMPANY DEVICES
+Employees must use company-issued laptops and phones primarily for authorized business activities. Devices must be protected with a password, PIN, or biometric lock. Employees must lock their screens whenever they leave a device unattended.
+Employees must not disable endpoint protection, disk encryption, firewall controls, or automatic security updates. Lost or stolen devices must be reported to the IT Help Desk immediately.
+
+3. PASSWORDS AND MULTI-FACTOR AUTHENTICATION
+Passwords must be unique to the company account and must not be reused on personal websites. Employees must never share passwords or approve an unexpected multi-factor authentication request.
+Company accounts require multi-factor authentication wherever the service supports it. If an employee suspects that a password has been exposed, the employee must change it immediately and contact the IT Help Desk.
+The company will require a password change when compromise is suspected or when instructed by the security team. Employees are not required to change passwords on an arbitrary monthly schedule.
+
+4. SOFTWARE INSTALLATION
+Employees may install software only from the company-approved software catalogue or after receiving written approval from IT. Employees must not install pirated software, unlicensed tools, cryptocurrency miners, or software obtained from untrusted sources.
+Requests for new software must include the business purpose and the required access permissions.
+
+5. DATA HANDLING
+Confidential company information must be stored only in approved company-managed systems. Employees must not send confidential files to personal email accounts or upload them to unapproved file-sharing services.
+Sensitive information must be shared only with people who have a legitimate business need. External sharing links must use access controls and an expiry date when available.
+
+6. NETWORK AND REMOTE ACCESS
+Employees working remotely must connect through the company-approved secure access service. Public Wi-Fi should be avoided for sensitive work unless the approved secure connection is active.
+Employees must not bypass network security controls or share their company network access with another person.
+
+7. REPORTING SECURITY INCIDENTS
+A suspected phishing message, malware infection, accidental data disclosure, lost device, or unauthorized account access must be reported to the IT Help Desk as soon as possible.
+Employees should preserve relevant messages or evidence and must not attempt to investigate or delete evidence unless instructed by IT or the security team.
+
+8. IT SUPPORT
+Employees can contact the IT Help Desk through the internal support portal or the company support email listed on the employee intranet. Each request should include the employee's name, device or application affected, a description of the issue, and any relevant error message.
+Critical incidents affecting access to business systems should be marked as urgent in the support portal.
+
+9. POLICY EXCEPTIONS
+Exceptions require written approval from the IT Security Manager before the employee changes a security setting or uses an unapproved service.
+
+10. REVIEW
+The IT and Security team reviews this policy at least once a year and after a significant security incident.

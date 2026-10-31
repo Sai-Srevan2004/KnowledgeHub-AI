@@ -39,7 +39,7 @@ def main():
             query=question,
             top_k=3,
         )
-
+        
         # 5. Generate answer with sources.
         print("\nGenerating answer...")
 
@@ -54,13 +54,14 @@ def main():
         print("\nAnswer:")
         print(response["answer"])
 
-        # # 7. Display sources.
-        # print("\nSources:")
+        # 7. Display sources.
+        print("\nSources:")
 
-        # for source in response["sources"]:
-        #     print(f"\nReference: {source['reference']}")
-        #     print(f"Document: {source['source']}")
-        #     print(f"Chunk: {source['chunk_index']}")
+        for source in response["sources"]:
+            print(f"\nReference: {source['reference']}")
+            print(f"Document: {source['source']}")
+            print(f"Chunk: {source['chunk_index']}")
+        
 
 
 if __name__ == "__main__":

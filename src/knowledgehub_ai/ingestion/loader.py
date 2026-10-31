@@ -22,6 +22,8 @@ def load_text_documents(directory: str) -> list[Document]:
         )
 
     for file_path in directory_path.glob("*.txt"):
+        if file_path.name.lower() == "readme.txt":
+         continue
         text = file_path.read_text(encoding="utf-8")
 
         if not text.strip():
