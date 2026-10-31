@@ -117,7 +117,6 @@
         "expected_answer": "New employees must complete mandatory security, conduct, and workplace-safety training within the time communicated by HR.",
         "source": "hr_policies.txt",
         "relevant_chunk_ids": [
-            23,
             24
         ],
         "relevance_grades": {
@@ -219,8 +218,7 @@
         "expected_answer": "Employees must obtain written manager approval before booking business travel. The request should state the business purpose, destination, proposed dates, estimated cost, and project or cost centre.",
         "source": "travel_policy.txt",
         "relevant_chunk_ids": [
-            55,
-            56
+            55
         ],
         "relevance_grades": {
             "55": 3,
@@ -321,8 +319,7 @@
         "expected_answer": "Employees working remotely must connect through the company-approved secure access service. Public Wi-Fi should be avoided for sensitive work unless the approved secure connection is active.",
         "source": "it_policies.txt",
         "relevant_chunk_ids": [
-            47,
-            48
+            47
         ],
         "relevance_grades": {
             "47": 3,
