@@ -150,3 +150,52 @@ Retain Top-K = 3 as the preferred configuration for now.
 | Question | Issue | Finding |
 |---|---|---|
 | Q011 | Retrieval coverage | Only one of two labeled relevant chunks appeared in the top three
+
+
+## 8 Experiment: LLM-Based Query Rewriting
+
+**Objective:** Evaluate whether rewriting user questions using an LLM improves retrieval quality.
+
+**Approach:**
+- Used Groq LLM to rewrite user questions into policy-oriented search queries.
+- Generated rewritten queries for all 28 answerable evaluation questions.
+- Evaluated retrieval using the same dataset, embedding model, chunk configuration (300 characters, 50 overlap), and `top_k = 3`.
+- Compared results against the original retrieval baseline.
+
+**Results:**
+
+| Metric | Original Retrieval | Query Rewriting |
+|---|---:|---:|
+| Precision@3 | 0.3571 | 0.3333 |
+| Recall@3 | 0.9821 | 0.9107 |
+| MRR | 0.8810 | 0.8333 |
+| nDCG@3 | 0.8942 | 0.8348 |
+
+**Key Findings:**
+
+Query rewriting reduced retrieval performance across all four evaluation metrics.
+
+Two questions experienced a complete loss of relevant chunks from the top-3 results:
+
+1. **Q005 – Remote Work Approval:** The rewritten query emphasized the approval process but failed to retrieve the relevant chunk containing the original remote-work request information.
+2. **Q022 – Software Procurement:** The rewritten query used broader terminology and failed to retrieve the chunk containing the specific software acquisition instructions.
+
+**Root Cause Analysis:**
+
+The experiments indicate that LLM-based query rewriting can introduce *query drift*. During rewriting, important terms or parts of the original information need may be lost, negatively affecting semantic retrieval and ranking.
+
+**Decision:**
+
+- Did not integrate query rewriting into the main RAG pipeline.
+- Preserved the original retrieval implementation as the baseline.
+- Saved rewritten queries and experiment results for reproducibility.
+- Identified query expansion (preserving the original query while adding alternative terminology) as a candidate for a separate experiment.
+
+**Artifacts:**
+- `src/knowledgehub_ai/retrieval/query_rewriter.py`
+- `data/evaluation/rewritten_queries.json`
+- `data/evaluation/retrieval_query_rewriting.json`
+- `scripts/evaluate_query_rewriting.py`
+- `scripts/analyze_query_rewriting.py`
+
+**Conclusion:** Query rewriting was not beneficial for the current dataset and retrieval configuration. Optimization decisions should be based on measured retrieval quality rather than assuming that LLM-generated queries will improve search performance.

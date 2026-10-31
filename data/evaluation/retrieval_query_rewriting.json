@@ -1,0 +1,492 @@
+{
+    "experiment": "Query Rewriting",
+    "top_k": 3,
+    "total_questions": 28,
+    "averages": {
+        "precision_at_3": 0.3333333333333333,
+        "recall_at_3": 0.9107142857142857,
+        "mrr": 0.8333333333333333,
+        "ndcg_at_3": 0.8348216678538705
+    },
+    "question_results": [
+        {
+            "id": "Q001",
+            "original_question": "How many weeks of parental leave do eligible employees receive?",
+            "rewritten_query": "Number of weeks of parental leave for eligible employees",
+            "relevant_chunks": [
+                0
+            ],
+            "retrieved_chunks": [
+                0,
+                1,
+                25
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q002",
+            "original_question": "How far in advance should employees submit a parental leave request when possible?",
+            "rewritten_query": "Notice period required for employee parental leave request submission.",
+            "relevant_chunks": [
+                0
+            ],
+            "retrieved_chunks": [
+                0,
+                33,
+                1
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q003",
+            "original_question": "How many days of annual leave do full-time employees receive per calendar year?",
+            "rewritten_query": "annual leave entitlement for full-time employees per calendar year (days)",
+            "relevant_chunks": [
+                1
+            ],
+            "retrieved_chunks": [
+                1,
+                0,
+                34
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q004",
+            "original_question": "Who must approve an employee's annual leave request?",
+            "rewritten_query": "Approval authority for employee annual leave requests",
+            "relevant_chunks": [
+                1
+            ],
+            "retrieved_chunks": [
+                1,
+                33,
+                0
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q005",
+            "original_question": "Can employees request remote work, and who approves the arrangement?",
+            "rewritten_query": "Remote work request approval process and approving authority for employees",
+            "relevant_chunks": [
+                1
+            ],
+            "retrieved_chunks": [
+                56,
+                47,
+                55
+            ],
+            "precision_at_3": 0.0,
+            "recall_at_3": 0.0,
+            "mrr": 0.0,
+            "ndcg_at_3": 0.0
+        },
+        {
+            "id": "Q006",
+            "original_question": "What is the normal probation period for new regular full-time employees?",
+            "rewritten_query": "standard probation period for regular full-time employees",
+            "relevant_chunks": [
+                25
+            ],
+            "retrieved_chunks": [
+                25,
+                27,
+                26
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q007",
+            "original_question": "Who confirms successful completion of probation, and how is it communicated?",
+            "rewritten_query": "Probation completion confirmation: responsible authority and communication method in policy documents.",
+            "relevant_chunks": [
+                27
+            ],
+            "retrieved_chunks": [
+                27,
+                26,
+                9
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q008",
+            "original_question": "How often is a formal performance review normally conducted?",
+            "rewritten_query": "frequency of formal performance reviews policy",
+            "relevant_chunks": [
+                28
+            ],
+            "retrieved_chunks": [
+                28,
+                29,
+                89
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q009",
+            "original_question": "What training must new employees complete?",
+            "rewritten_query": "Training requirements for new employees",
+            "relevant_chunks": [
+                24
+            ],
+            "retrieved_chunks": [
+                30,
+                24,
+                23
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 0.5,
+            "ndcg_at_3": 0.6934264036172708
+        },
+        {
+            "id": "Q010",
+            "original_question": "What information must employees keep up to date in the HR system?",
+            "rewritten_query": "Required employee information to be kept current in the HR system.",
+            "relevant_chunks": [
+                32
+            ],
+            "retrieved_chunks": [
+                32,
+                24,
+                34
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q011",
+            "original_question": "What details and documents must an employee include when submitting an expense claim?",
+            "rewritten_query": "Required details and supporting documents for employee expense claim submission.",
+            "relevant_chunks": [
+                8,
+                9
+            ],
+            "retrieved_chunks": [
+                8,
+                18,
+                70
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 0.5,
+            "mrr": 1.0,
+            "ndcg_at_3": 0.6131471927654584
+        },
+        {
+            "id": "Q012",
+            "original_question": "Within how many days should employees normally submit an expense claim?",
+            "rewritten_query": "Standard timeframe for employees to submit expense claims (in days)",
+            "relevant_chunks": [
+                10
+            ],
+            "retrieved_chunks": [
+                10,
+                8,
+                15
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q013",
+            "original_question": "What should an employee do if an expense receipt is unavailable?",
+            "rewritten_query": "Employee steps when expense receipt is unavailable policy",
+            "relevant_chunks": [
+                12
+            ],
+            "retrieved_chunks": [
+                12,
+                11,
+                14
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q014",
+            "original_question": "Who reviews an expense claim and what does Finance check?",
+            "rewritten_query": "Expense claim review process: who approves the claim and what checks does Finance perform?",
+            "relevant_chunks": [
+                13
+            ],
+            "retrieved_chunks": [
+                13,
+                14,
+                8
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q015",
+            "original_question": "Can an employee approve their own expense claim?",
+            "rewritten_query": "Policy on employees approving their own expense claims",
+            "relevant_chunks": [
+                14
+            ],
+            "retrieved_chunks": [
+                14,
+                16,
+                13
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q016",
+            "original_question": "What approval is required before booking business travel?",
+            "rewritten_query": "Approval required prior to booking business travel",
+            "relevant_chunks": [
+                55
+            ],
+            "retrieved_chunks": [
+                55,
+                56,
+                6
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q017",
+            "original_question": "What class of travel should employees normally choose for standard business trips?",
+            "rewritten_query": "Employee travel class policy for standard business trips",
+            "relevant_chunks": [
+                60
+            ],
+            "retrieved_chunks": [
+                60,
+                68,
+                70
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q018",
+            "original_question": "Who is responsible for the additional costs when an employee combines personal travel with a business trip?",
+            "rewritten_query": "Responsibility for additional costs when an employee combines personal travel with a business trip.",
+            "relevant_chunks": [
+                69
+            ],
+            "retrieved_chunks": [
+                68,
+                69,
+                70
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 0.5,
+            "ndcg_at_3": 0.6309297535714575
+        },
+        {
+            "id": "Q019",
+            "original_question": "What should employees do if an emergency or safety concern occurs during a business trip?",
+            "rewritten_query": "Employee procedures for handling emergencies or safety concerns during business travel.",
+            "relevant_chunks": [
+                67
+            ],
+            "retrieved_chunks": [
+                67,
+                66,
+                58
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q020",
+            "original_question": "How should employees report a lost or stolen company laptop?",
+            "rewritten_query": "Procedure for employees to report a lost or stolen company laptop.",
+            "relevant_chunks": [
+                39
+            ],
+            "retrieved_chunks": [
+                38,
+                49,
+                39
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 0.3333333333333333,
+            "ndcg_at_3": 0.5
+        },
+        {
+            "id": "Q021",
+            "original_question": "When must an employee change a company password?",
+            "rewritten_query": "Company policy on required employee password change timing and frequency.",
+            "relevant_chunks": [
+                41,
+                42
+            ],
+            "retrieved_chunks": [
+                42,
+                41,
+                40
+            ],
+            "precision_at_3": 0.6666666666666666,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q022",
+            "original_question": "Where may employees obtain software for company devices?",
+            "rewritten_query": "Employee policy for obtaining software on company devices.",
+            "relevant_chunks": [
+                43
+            ],
+            "retrieved_chunks": [
+                37,
+                38,
+                34
+            ],
+            "precision_at_3": 0.0,
+            "recall_at_3": 0.0,
+            "mrr": 0.0,
+            "ndcg_at_3": 0.0
+        },
+        {
+            "id": "Q023",
+            "original_question": "How should employees access company systems while working remotely?",
+            "rewritten_query": "Employee remote access procedures for company systems policy",
+            "relevant_chunks": [
+                47
+            ],
+            "retrieved_chunks": [
+                37,
+                47,
+                34
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 0.5,
+            "ndcg_at_3": 0.38685280723454163
+        },
+        {
+            "id": "Q024",
+            "original_question": "What should employees do if they suspect a phishing message or malware infection?",
+            "rewritten_query": "Employee procedure for suspected phishing messages or malware infection.",
+            "relevant_chunks": [
+                49,
+                50
+            ],
+            "retrieved_chunks": [
+                49,
+                88,
+                50
+            ],
+            "precision_at_3": 0.6666666666666666,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 0.9197207891481876
+        },
+        {
+            "id": "Q025",
+            "original_question": "To whom should an employee disclose an actual or potential conflict of interest?",
+            "rewritten_query": "Employee disclosure of actual or potential conflict of interest – appropriate recipient or authority.",
+            "relevant_chunks": [
+                81
+            ],
+            "retrieved_chunks": [
+                81,
+                22,
+                80
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q026",
+            "original_question": "Who can an employee contact if a workplace concern involves their manager?",
+            "rewritten_query": "Designated contact for employee workplace concerns involving a manager",
+            "relevant_chunks": [
+                85
+            ],
+            "retrieved_chunks": [
+                85,
+                90,
+                81
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        },
+        {
+            "id": "Q027",
+            "original_question": "Does the policy prohibit retaliation against employees who raise concerns in good faith?",
+            "rewritten_query": "Policy prohibition on retaliation against employees who raise concerns in good faith",
+            "relevant_chunks": [
+                87
+            ],
+            "retrieved_chunks": [
+                85,
+                87,
+                75
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 0.5,
+            "ndcg_at_3": 0.6309297535714575
+        },
+        {
+            "id": "Q028",
+            "original_question": "What should employees do if they cannot attend an important meeting?",
+            "rewritten_query": "Employee procedure for inability to attend an important meeting.",
+            "relevant_chunks": [
+                79
+            ],
+            "retrieved_chunks": [
+                79,
+                78,
+                58
+            ],
+            "precision_at_3": 0.3333333333333333,
+            "recall_at_3": 1.0,
+            "mrr": 1.0,
+            "ndcg_at_3": 1.0
+        }
+    ]
+}

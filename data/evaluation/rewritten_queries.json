@@ -1,0 +1,114 @@
+{
+    "Q001": {
+        "original_question": "How many weeks of parental leave do eligible employees receive?",
+        "rewritten_query": "Number of weeks of parental leave for eligible employees"
+    },
+    "Q002": {
+        "original_question": "How far in advance should employees submit a parental leave request when possible?",
+        "rewritten_query": "Notice period required for employee parental leave request submission."
+    },
+    "Q003": {
+        "original_question": "How many days of annual leave do full-time employees receive per calendar year?",
+        "rewritten_query": "annual leave entitlement for full-time employees per calendar year (days)"
+    },
+    "Q004": {
+        "original_question": "Who must approve an employee's annual leave request?",
+        "rewritten_query": "Approval authority for employee annual leave requests"
+    },
+    "Q005": {
+        "original_question": "Can employees request remote work, and who approves the arrangement?",
+        "rewritten_query": "Remote work request approval process and approving authority for employees"
+    },
+    "Q006": {
+        "original_question": "What is the normal probation period for new regular full-time employees?",
+        "rewritten_query": "standard probation period for regular full-time employees"
+    },
+    "Q007": {
+        "original_question": "Who confirms successful completion of probation, and how is it communicated?",
+        "rewritten_query": "Probation completion confirmation: responsible authority and communication method in policy documents."
+    },
+    "Q008": {
+        "original_question": "How often is a formal performance review normally conducted?",
+        "rewritten_query": "frequency of formal performance reviews policy"
+    },
+    "Q009": {
+        "original_question": "What training must new employees complete?",
+        "rewritten_query": "Training requirements for new employees"
+    },
+    "Q010": {
+        "original_question": "What information must employees keep up to date in the HR system?",
+        "rewritten_query": "Required employee information to be kept current in the HR system."
+    },
+    "Q011": {
+        "original_question": "What details and documents must an employee include when submitting an expense claim?",
+        "rewritten_query": "Required details and supporting documents for employee expense claim submission."
+    },
+    "Q012": {
+        "original_question": "Within how many days should employees normally submit an expense claim?",
+        "rewritten_query": "Standard timeframe for employees to submit expense claims (in days)"
+    },
+    "Q013": {
+        "original_question": "What should an employee do if an expense receipt is unavailable?",
+        "rewritten_query": "Employee steps when expense receipt is unavailable policy"
+    },
+    "Q014": {
+        "original_question": "Who reviews an expense claim and what does Finance check?",
+        "rewritten_query": "Expense claim review process: who approves the claim and what checks does Finance perform?"
+    },
+    "Q015": {
+        "original_question": "Can an employee approve their own expense claim?",
+        "rewritten_query": "Policy on employees approving their own expense claims"
+    },
+    "Q016": {
+        "original_question": "What approval is required before booking business travel?",
+        "rewritten_query": "Approval required prior to booking business travel"
+    },
+    "Q017": {
+        "original_question": "What class of travel should employees normally choose for standard business trips?",
+        "rewritten_query": "Employee travel class policy for standard business trips"
+    },
+    "Q018": {
+        "original_question": "Who is responsible for the additional costs when an employee combines personal travel with a business trip?",
+        "rewritten_query": "Responsibility for additional costs when an employee combines personal travel with a business trip."
+    },
+    "Q019": {
+        "original_question": "What should employees do if an emergency or safety concern occurs during a business trip?",
+        "rewritten_query": "Employee procedures for handling emergencies or safety concerns during business travel."
+    },
+    "Q020": {
+        "original_question": "How should employees report a lost or stolen company laptop?",
+        "rewritten_query": "Procedure for employees to report a lost or stolen company laptop."
+    },
+    "Q021": {
+        "original_question": "When must an employee change a company password?",
+        "rewritten_query": "Company policy on required employee password change timing and frequency."
+    },
+    "Q022": {
+        "original_question": "Where may employees obtain software for company devices?",
+        "rewritten_query": "Employee policy for obtaining software on company devices."
+    },
+    "Q023": {
+        "original_question": "How should employees access company systems while working remotely?",
+        "rewritten_query": "Employee remote access procedures for company systems policy"
+    },
+    "Q024": {
+        "original_question": "What should employees do if they suspect a phishing message or malware infection?",
+        "rewritten_query": "Employee procedure for suspected phishing messages or malware infection."
+    },
+    "Q025": {
+        "original_question": "To whom should an employee disclose an actual or potential conflict of interest?",
+        "rewritten_query": "Employee disclosure of actual or potential conflict of interest – appropriate recipient or authority."
+    },
+    "Q026": {
+        "original_question": "Who can an employee contact if a workplace concern involves their manager?",
+        "rewritten_query": "Designated contact for employee workplace concerns involving a manager"
+    },
+    "Q027": {
+        "original_question": "Does the policy prohibit retaliation against employees who raise concerns in good faith?",
+        "rewritten_query": "Policy prohibition on retaliation against employees who raise concerns in good faith"
+    },
+    "Q028": {
+        "original_question": "What should employees do if they cannot attend an important meeting?",
+        "rewritten_query": "Employee procedure for inability to attend an important meeting."
+    }
+}
